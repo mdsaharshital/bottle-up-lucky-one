@@ -1,0 +1,18 @@
+.cart-area {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(120, 78, 247, 0.6);
+  border-radius: 20px;
+  margin: 15px auto;
+}
+.cart-area img {
+  width: 45px;
+  height: 40px;
+  border-radius: 50%;
+}
+.cart-area h4 {
+  color: white;
+}

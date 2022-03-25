@@ -8,3 +8,21 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+.order-lists-container {
+  background-color: rgba(120, 78, 247, 0.45);
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+.chose-one-btn {
+  background-color: rgb(253, 213, 163);
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+}
+.chose-again-btn {
+  background-color: rgb(253, 191, 163);
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+}
