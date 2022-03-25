@@ -1,0 +1,56 @@
+[
+    {
+      "id": "623dee926a5edae28b32f524",
+      "name": "Garcia Clark",
+      "price": 522,
+      "picture": "../src/images/img-1.jpg"
+    },
+    {
+      "id": "623dee928d2cf228703c6acd",
+      "name": "Dawson Clarke",
+      "price": 46,
+      "picture": "../src/images/img-2.jpg"
+    },
+    {
+      "id": "623dee92c65380586b5c2064",
+      "name": "Susie Cash",
+      "price": 415,
+      "picture": "../src/images/img-3.jpg"
+    },
+    {
+      "id": "623dee927a2b64e925fa6d40",
+      "name": "Mooney Cross",
+      "price": 176,
+      "picture": "../src/images/img-4.jpg"
+    },
+    {
+      "id": "623dee925da420f2ff3f2c2b",
+      "name": "Nieves Mendez",
+      "price": 33,
+      "picture": "../src/images/img-5.jpg"
+    },
+    {
+      "id": "623dee92f6f8f9dcd0800429",
+      "name": "Hunter Orr",
+      "price": 79,
+      "picture": "../src/images/img-6.jpg"
+    },
+    {
+      "id": "623dee927b73815ca86e971a",
+      "name": "Sandy Acevedo",
+      "price": 568,
+      "picture": "../src/images/img-7.jpg"
+    },
+    {
+      "id": "623dee9284d0d04df1019368",
+      "name": "Ginger Cline",
+      "price": 345,
+      "picture": "../src/images/img-8.jpg"
+    },
+    {
+      "id": "623dee92d7e78ad00142f9f8",
+      "name": "James Mccall",
+      "price": 173,
+      "picture": "../src/images/img-9.jpg"
+    }
+  ]
