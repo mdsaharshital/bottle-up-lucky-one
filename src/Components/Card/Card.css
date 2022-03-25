@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  width: 300px;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+  border-radius: 7px;
+  position: relative;
+}
+.card img {
+  width: 300px;
+  height: 400px;
+  border-radius: 12px;
+  padding: 7px;
+}
+.card-details {
+  padding: 7px;
+}
+.card-details h3,
+h5,
+p,
+button {
+  margin-bottom: 14px;
+}
