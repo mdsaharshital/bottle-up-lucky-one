@@ -10,6 +10,7 @@ const Shop = () => {
     },[])
     return (
         <div className='main'>
+            
             <div className="menu-container">
                 {
                    bottles.map( bottle => <Card bottle={bottle} key={bottle.id}/>)
