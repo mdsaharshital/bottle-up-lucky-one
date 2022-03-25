@@ -28,7 +28,7 @@ const Shop = () => {
     }
     return (
         <div className='main'>
-            
+           
             <div className="menu-container">
                 {
                    bottles.map( bottle => <Card addToCart={addToCart} bottle={bottle} key={bottle.id}/>)
@@ -36,12 +36,12 @@ const Shop = () => {
             </div>
             <div className="order-lists-container">
                 
-            <h2>Selected Bottles</h2>
-                {
-                    cart.map( item => <Cart key={item.id} cartBottle={item}></Cart>)
-                }
-            <button onClick={selectOne} className='chose-one-btn'>Choose Randomly</button>
-            <button onClick={removeFromCart} className='chose-again-btn'>Choose Again</button>
+                <h2>Selected Bottles</h2>
+                    {
+                        cart.map( item => <Cart key={item.id} cartBottle={item}></Cart>)
+                    }
+                <button onClick={selectOne} className='chose-one-btn'>Choose Randomly</button>
+                <button onClick={removeFromCart} className='chose-again-btn'>Choose Again</button>
             </div>
         </div>
     );
