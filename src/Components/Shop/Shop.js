@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
 import Cart from '../Cart/Cart';
-import {FaRandom} from 'react-icons/fa';
 import './Shop.css';
 const Shop = () => {
     const [bottles, setBottles] =useState([]);
