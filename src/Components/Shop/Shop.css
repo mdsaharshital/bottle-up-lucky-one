@@ -16,7 +16,9 @@
   background-color: rgba(120, 78, 247, 0.45);
   border-radius: 20px;
   padding: 20px 10px;
-  position: sticky;
+  position: fixed;
+  right: 0;
+  height: 100vh;
   order: 2;
 }
 .chose-one-btn {
@@ -49,6 +51,10 @@
   }
   .order-lists-container {
     order: 1;
+    width: 90%;
+    margin: 0 auto;
+    position: static;
+    height: 70vh;
   }
 }
 /* for mobile */
@@ -64,5 +70,7 @@
   }
   .order-lists-container {
     order: 1;
+    position: static;
+    height: 70vh;
   }
 }

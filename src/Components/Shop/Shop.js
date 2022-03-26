@@ -13,9 +13,15 @@ const Shop = () => {
     },[]);
     const addToCart =(selectedItem)=>{
         if( !cart.includes(selectedItem) ){
-            const newCart =[...cart, selectedItem];
-            setCart(newCart);
+            if(cart.length>3){
+                alert('OOPS!! You Cannot select more than 4 items')
+            }
+            else{
+                const newCart =[...cart, selectedItem];
+                setCart(newCart);
+            }
         }
+        
     }
     const removeFromCart =()=>{
         setCart([]);
@@ -40,7 +46,7 @@ const Shop = () => {
                     {
                         cart.map( item => <Cart key={item.id} cartBottle={item}></Cart>)
                     }
-                <button onClick={selectOne} className='chose-one-btn'>Choose Randomly</button>
+                <button onClick={selectOne} className='chose-one-btn'>Choose 1 for me</button>
                 <button onClick={removeFromCart} className='chose-again-btn'>Choose Again</button>
             </div>
         </div>
