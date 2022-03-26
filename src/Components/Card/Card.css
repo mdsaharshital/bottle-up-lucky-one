@@ -31,4 +31,11 @@ button {
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.cart-icon {
+  margin-left: 10px;
 }
